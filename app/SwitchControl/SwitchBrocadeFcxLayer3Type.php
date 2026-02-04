@@ -15,7 +15,7 @@ class SwitchBrocadeFcxLayer3Type extends BrocadeType
      * @example brocade-fcx-layer3
      * @return string
      */
-    public function getSlug()
+    public function getSlug(): string
     {
         return static::SLUG;
     }
@@ -26,12 +26,12 @@ class SwitchBrocadeFcxLayer3Type extends BrocadeType
      * @example ssh.dell
      * @return string
      */
-    public function getLang()
+    public function getLang(): string
     {
         return 'pkg.switch-brocade-fcx-layer3::commands';
     }
 
-    public function getFormatter()
+    public function getFormatter(): string
     {
         return SwitchBrocadeFcxLayer3Format::class;
     }
