@@ -1,2 +1,5 @@
 /vendor
-/.idea/workspace.xml
+/.idea/
+.phpunit.result.cache
+.phpunit.cache/
+CLAUDE.md
